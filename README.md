@@ -1,4 +1,5 @@
 # Code framework for KG completion.
+Implementation of Temporal Knowledge Graph Completion following the work of Duran et al., [Learning Sequence Encoders for Temporal Knowledge Graph Completion](https://arxiv.org/abs/1809.03202)
 - Code:
     - modify based on [knowledge_representation_pytorch](https://github.com/jimmywangheng/knowledge_representation_pytorch)
     - 1st column in train.txt - subject entity
