@@ -1,5 +1,7 @@
-# Code framework for KG completion.
+# Code framework for Temporal KG completion.
+
 Implementation of Temporal Knowledge Graph Completion following the work of Duran et al., [Learning Sequence Encoders for Temporal Knowledge Graph Completion](https://arxiv.org/abs/1809.03202)
+
 - Code:
     - modify based on [knowledge_representation_pytorch](https://github.com/jimmywangheng/knowledge_representation_pytorch)
     - 1st column in train.txt - subject entity
@@ -14,13 +16,13 @@ Implementation of Temporal Knowledge Graph Completion following the work of Dura
     ```
     python preprocess_TA_step1.py ICEWS14
     python preprocess_TA_step2.py ICEWS14
-    ```  
+    ```
     Note : data is already Preprocessed.
     if you have new data then you can follow the above Process i.e. "python preprocess_TA_step1.py ICEWS14"
 
 
 
--TATransE.py : train code
+- TATransE.py : train code
 
 - You can run the code with 
 	```
@@ -34,6 +36,6 @@ Implementation of Temporal Knowledge Graph Completion following the work of Dura
 
 	```
 Note: when you run the code like python "TA_TransE.py ICEWS14",
-you need to give dataset in argument with out _TA  
+you need to give dataset in argument with out _TA
 
 
